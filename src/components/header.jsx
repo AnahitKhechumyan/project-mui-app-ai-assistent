@@ -1,4 +1,5 @@
 import { AppBar, Toolbar, Typography, Avatar } from "@mui/material";
+import  MenuListComposition  from "./avatarMenu";
 
 export const Header = () => {
   return (
@@ -7,8 +8,7 @@ export const Header = () => {
         <Typography flexGrow="1" variant="h6">
           AI Assistant
         </Typography>
-
-        <Avatar />
+        <MenuListComposition/> 
       </Toolbar>
     </AppBar>
   );
